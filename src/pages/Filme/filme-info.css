@@ -1,0 +1,100 @@
+
+.filme-info {
+    margin: 0 auto;
+    margin-top: 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    max-width: 800px;
+    padding: 0 8px;
+}
+
+.filme-info h1 {
+    margin: 15px;
+    font-size: 0.8rem;   
+}
+
+.filme-info img {
+    border-radius: 8px;
+    width: 800px;
+    max-width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+}
+
+.filme-info h3 {
+    margin-top: 20px;
+}
+
+.filme-info span {
+    margin: 8px 0;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.area-buttons button {
+    margin-right: 12px;
+    width: 120px;
+    height: 30px;
+    margin-top: 14px;
+    margin-left: 0;
+    margin-bottom: 8px;
+    font-size: 18px;
+    font-weight: 500;
+    border: 0;
+    outline: none;
+    padding: 6px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.5s;
+    align-items: center;
+    justify-content: center;
+    display: inline-flex; 
+}
+
+.area-buttons button:hover {
+    background-color: #000;
+    color: #FFF;   
+}
+
+.area-buttons a {
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.5s;
+}
+
+.area-buttons a:hover  {
+    color:#FFF;
+}
+
+  @media (max-width: 1230px) {
+    .filme-info {
+      width: 100%;
+    }
+  }
+
+  @media (max-width: 500px) {
+    .filme-info {
+      width: 100%; 
+    }
+  }
+
+  @media (max-width: 225px) {
+    .filme-info,  
+    .filme-info h1, 
+    .filme-info img , 
+    .filme-info h3,
+    .filme-info span, 
+    .area-buttons button,
+    .area-buttons a {
+      max-width: 100%;
+    }
+  }
+  
+  
+
+
+
+
+

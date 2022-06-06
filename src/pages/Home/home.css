@@ -1,0 +1,82 @@
+body {
+  font-family: 'Roboto';
+}
+
+.lista-filmes {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin: 14px auto;
+  height: auto;
+}
+
+  .loading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 14px; 
+  }
+  
+  .lista-filmes article{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    border-radius: 4px;
+    word-wrap: break-word;
+    font-size: 10px; 
+  }
+
+  .lista-filmes img{
+    width: 200px;
+    height: 300px;
+    display: flex;
+    margin-top: 5px;
+    padding: 5px;
+    max-width: 100%;
+    object-fit: cover;
+
+    border-top-left-radius: 13px;
+    border-top-right-radius: 13px;
+  }
+   
+  .lista-filmes a{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 0;
+    font-size: 1.3rem;
+    background-color: rgba(18, 180, 221, 0.7);
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.849);
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    width: 190px;
+    margin-top: -5px;  
+  }
+
+  .lista-filmes a:hover {
+     transition: all;
+     background-color: rgba(0, 0, 0, 0.849);
+     color: #fff;
+  }
+
+  .lista-filmes h4{
+    font-size: 0.5rem;
+    margin-top: 14px;
+  }
+
+  body, input, textarea, select, button {
+    font: 400 1rem sans-serif;  /* 1rem = 16px*/
+  }
+  
+  @media (max-width: 720px) {
+    html {
+      font-size: 87.5%; /* vai gerar 14px*/
+    }
+  }
+  @media (max-width: 1080px) {
+    html {
+      font-size: 93.75%; /* vai gerar 14px*/
+    }
+  }
